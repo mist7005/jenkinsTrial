@@ -8,5 +8,6 @@ public class CreateCus {
 	public void checkCus()
 	{
 		Reporter.log("cus",true);	
+		System.out.prinltn("change done here");
 	}
 }

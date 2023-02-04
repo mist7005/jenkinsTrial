@@ -6,6 +6,7 @@ public class TryingToPush {
 	@Test
 	public void tryingToPush() {
 		System.out.println("hello world");
+		System.out.println("GandMarao");
 	}
 	
 }

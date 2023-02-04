@@ -7,7 +7,7 @@ public class ModifycustomerTest {
 	@Test
 	public void modifyCus()
 	{
-		//modify
+		//m.
 		Reporter.log("cus",true);	
 	}
 }

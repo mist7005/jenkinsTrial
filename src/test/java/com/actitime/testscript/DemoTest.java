@@ -10,6 +10,7 @@ public class DemoTest {
 	{
 		System.out.println("hello");
 		Reporter.log("hello",true);	
+		System.out.println("I am trying to push");
 	}
 
 }

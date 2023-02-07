@@ -8,7 +8,7 @@ public class CreateCus {
 	public void checkCus()
 	{
 		String browser = System.getProperty("browser");
-		System.out.println(browser);
+		System.out.println("The browser name is: "+browser);
 		Reporter.log(browser,true);
 		Reporter.log("cus",true);	
 		Reporter.log("hello world",true);

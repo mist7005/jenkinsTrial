@@ -7,14 +7,14 @@ public class StringProb {
 
 	public static void main(String[] args) {
 		
-		String s1="HelloY";
-		for (int i = 0; i < s1.length(); i++) {
-			if(s1.charAt(i)>='a'&& s1.charAt(i)<='z')
-			{
-				System.out.println((char)(s1.charAt(i)-32));
-			}
-		}
-		
+//		String s1="HelloY";
+//		for (int i = 0; i < s1.length(); i++) {
+//			if(s1.charAt(i)>='a'&& s1.charAt(i)<='z')
+//			{
+//				System.out.println((char)(s1.charAt(i)-32));
+//			}
+//		}
+//		
 		
 	
 		
@@ -46,8 +46,14 @@ public class StringProb {
 		
 		
 		
-		
-		
+		String s="a12b10z10";
+		String z=s.replaceAll("[0-9]", " " ).trim();
+		String str[]=z.split(" ");
+		int sum=0;
+		for (int i = 0; i < str.length; i++) {
+			sum=sum+Integer.parseInt(str[i]);
+		}
+		System.out.println(sum);
 		
 	}
 
